@@ -1,0 +1,12 @@
+.product{
+    border-radius: 10px;
+}
+.product-btn{
+    border: none;
+    padding: 10px;
+    transition: 0.4s;
+}
+.product-btn:hover{
+    background-color: rgb(68, 66, 66);
+    color: white;
+}

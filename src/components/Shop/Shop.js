@@ -11,7 +11,7 @@ const Shop = () => {
         .then(data => setProducts(data));
     },[])
     return (
-        <div>
+        <div className='shop-container'>
            <Container fluid>
              <div className="row">
                 <div className="col-md-8">

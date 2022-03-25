@@ -1,20 +1,23 @@
+import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Card } from "react-bootstrap";
-
+import './Product.css'
 const Product = (props) => {
   // console.log(props.product);
   const { name, price, picture, id } = props.product;
   return (
-    <div className="col-md-4">
+    <div>
       <Card>
         <Card.Img variant="top" src={picture} />
         <Card.Body>
           <Card.Title>{name}</Card.Title>
           <p>Price: {price}</p>
         </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
-        </Card.Footer>
+        <button className="product-btn"> 
+            Add to Card
+            <FontAwesomeIcon className="ms-2" icon={faShoppingCart}></FontAwesomeIcon>
+        </button>
       </Card>
     </div>
   );
