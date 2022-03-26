@@ -1,2 +1,8 @@
-
-
+.chosenItem{
+    text-align: center;
+    margin: 20px 0;
+}
+.chosenItem img{
+    width: 150px;
+    border-radius: 10px;
+}

@@ -17,9 +17,9 @@ const Shop = () => {
       setSideCard(newCard);
     }
     function clearItems(){
-
+      setSideCard([]);
     }
-    console.log(sideCard);
+    // console.log(sideCard);
     return (
         <div className='shop-container'>
            <Container fluid>
@@ -37,7 +37,9 @@ const Shop = () => {
                 <div className="col-md-4">
                   <div className="sideCard-container">
                     <div>
-                    <SideCard sideCard = {sideCard}/>
+                    <SideCard sideCard = {sideCard}
+                    clearItems = {clearItems}
+                    />
                   </div>
                   </div>
                 </div>
