@@ -16,6 +16,9 @@ const Shop = () => {
       const newCard = [...sideCard, product];
       setSideCard(newCard);
     }
+    function clearItems(){
+
+    }
     console.log(sideCard);
     return (
         <div className='shop-container'>
