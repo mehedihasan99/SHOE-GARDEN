@@ -22,17 +22,17 @@ const Theory = () => {
               <h5 className="text-center">State</h5>
           <ul>
               <li>States are mutable</li>
-              <li>state use inside a class component</li>
+              <li>State use inside a class component</li>
               <li>Which lets React do fast reference checks</li>
               <li>States are associated with the individual components can't be used by other components.</li>
-              <li>states are initialize on component mount.</li>
-              <li>states are used for rendering dynamic changes within component.</li>
+              <li>States are initialize on component mount.</li>
+              <li>States are used for rendering dynamic changes within component.</li>
           </ul>
           </div>
           <div className="props">
             <h5 className="text-center">Props</h5>
             <ul>
-                <li>represents "read-only" data, that are immutable and refer to attributes from parents componen</li>
+                <li>Represents "read-only" data, that are immutable and refer to attributes from parents component.</li>
                 <li>Props are immutable.</li>
                 <li>you can pass props between components.</li>
                 <li>Props use to pass data in the child component</li>
