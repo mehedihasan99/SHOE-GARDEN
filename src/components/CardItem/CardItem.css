@@ -1,0 +1,20 @@
+.sideCardFlex {
+    margin: 30px 0;
+     margin-left: 20px;
+     gap: 10px;
+     display: flex;
+     align-items: center;
+ }
+
+ .name-part h3 {
+     font-size: 16px;
+ }
+
+ .img-part img {
+     width: 40px;
+     border-radius: 50%;
+ }
+
+ .icon-part {
+     font-size: 25px;
+ }
